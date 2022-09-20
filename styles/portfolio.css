@@ -1,0 +1,152 @@
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+header {
+    background-image: url(/img/bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: Roboto;
+}
+p{
+text-align: center;
+margin: 0 auto 20px;
+width: 208px;
+height: 28px;
+margin-left: 0 auto;
+padding-top: 135px;
+padding-bottom: 25px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 23px;
+line-height: 28px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+h1{
+text-align: center;
+margin: 0 auto;
+font-family: 'Roboto';
+padding-bottom: 100px;
+font-style: normal;
+font-weight: 700;
+font-size: 72px;
+line-height: 84px;
+letter-spacing: 0.1em;
+color: #FFFFFF;
+
+}
+h2{
+text-align: center;
+margin: 0 auto;
+width: 460px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #FFFFFF;
+
+}
+.btn-branding {
+display: block;
+margin: 48px auto;
+align-items: center;
+width: 200px;
+height: 53px;
+padding: 16px 40px;
+background-color: #FFFFFF;
+text-decoration: none;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+text-transform: uppercase;
+border-radius: 50px;
+}
+.btn-branding:hover {
+    color:#F65282;
+}
+.space {
+    padding: 100px;
+    margin-top: 150px;
+}
+.navbar{
+    padding: 49px 100px;
+}
+.first, .second, .third, .fourth {
+display:flex;
+flex-direction: row;
+justify-content: space-evenly;
+margin-bottom: 40px;
+}
+.fourth{
+    margin-bottom: 100px;
+}
+.fifth {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 1075px) {
+    p{
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 0;
+        padding-bottom: 0px;
+        font-size: 15px;
+        
+    }
+    h1 {
+        font-size: 25px;
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 0;
+        line-height: 30px;
+      }
+    h2 {
+        display: none;
+    }
+   .navbar{
+        padding: 20px;
+    }
+    .navbar-logo{
+    width: 50%;
+}
+.btn-branding{
+    padding: 5px 20px;
+    width: 100px;
+    height: 23px;
+    font-size: 7px;
+    align-items: center;
+}
+.space {
+    padding: 0;
+    margin:0;
+}
+.first, .second, .third, .fourth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.portfolio {
+    width: auto;
+    height: auto;
+    margin: 20px;
+}
+.fourth{
+    margin-bottom: 0px;
+}
+.fifth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+}
